@@ -1,0 +1,8 @@
+{
+    "box2d.b2BuoyancyController": "contrib/Enhancements/Controllers/b2BuoyancyController",
+    "box2d.b2ConstantAccelController": "contrib/Enhancements/Controllers/b2ConstantAccelController",
+    "box2d.b2ConstantForceController": "contrib/Enhancements/Controllers/b2ConstantForceController",
+    "box2d.b2Controller": "contrib/Enhancements/Controllers/b2Controller",
+    "box2d.b2GravityController": "contrib/Enhancements/Controllers/b2GravityController",
+    "box2d.b2TensorDampingController": "contrib/Enhancements/Controllers/b2TensorDampingController"
+}

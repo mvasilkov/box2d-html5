@@ -1,0 +1,9 @@
+box2d-html5
+-----------
+
+An HTML5 port of Box2D physics engine.
+
+Box2D is an open source C++ engine for simulating rigid bodies in 2D.
+Box2D is developed by Erin Catto and has the zlib license.
+
+This port is based on the work done by Isaac Burns.
