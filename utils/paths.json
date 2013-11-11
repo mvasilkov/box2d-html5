@@ -1,3 +1,13 @@
 {
-    "goog": "utils/goog/base"
+    "goog": "utils/goog/base",
+    "goog.events.BrowserEvent": "utils/goog/browserevent",
+    "goog.events.BrowserFeature": "utils/goog/browserfeature",
+    "goog.events.Event": "utils/goog/event",
+    "goog.events.EventId": "utils/goog/eventid",
+    "goog.events.EventType": "utils/goog/eventtype",
+    "goog.events.KeyCodes": "utils/goog/keycodes",
+    "goog.reflect": "utils/goog/reflect",
+    "goog.string": "utils/goog/string",
+    "goog.string.format": "utils/goog/stringformat",
+    "goog.userAgent": "utils/goog/useragent"
 }
