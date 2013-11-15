@@ -1,13 +1,13 @@
 {
-    "goog": "utils/goog/base",
-    "goog.events.BrowserEvent": "utils/goog/browserevent",
-    "goog.events.BrowserFeature": "utils/goog/browserfeature",
-    "goog.events.Event": "utils/goog/event",
-    "goog.events.EventId": "utils/goog/eventid",
-    "goog.events.EventType": "utils/goog/eventtype",
-    "goog.events.KeyCodes": "utils/goog/keycodes",
-    "goog.reflect": "utils/goog/reflect",
-    "goog.string": "utils/goog/string",
-    "goog.string.format": "utils/goog/stringformat",
-    "goog.userAgent": "utils/goog/useragent"
+    "mod_goog": "utils/goog/base",
+    "mod_goog_events_browserevent": "utils/goog/browserevent",
+    "mod_goog_events_browserfeature": "utils/goog/browserfeature",
+    "mod_goog_events_event": "utils/goog/event",
+    "mod_goog_events_eventid": "utils/goog/eventid",
+    "mod_goog_events_eventtype": "utils/goog/eventtype",
+    "mod_goog_events_keycodes": "utils/goog/keycodes",
+    "mod_goog_reflect": "utils/goog/reflect",
+    "mod_goog_string": "utils/goog/string",
+    "mod_goog_string_format": "utils/goog/stringformat",
+    "mod_goog_useragent": "utils/goog/useragent"
 }

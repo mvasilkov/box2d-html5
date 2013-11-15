@@ -1,5 +1,5 @@
 // This wrapper was auto-generated.
-define(['goog', 'box2d.Testbed.Test', 'box2d.Testbed.TestEntries', 'goog.events.BrowserEvent', 'goog.events.KeyCodes'], function (goog, box2d) {
+define(['mod_goog', 'mod_box2d_testbed_test', 'mod_box2d_testbed_testentries', 'mod_goog_events_browserevent', 'mod_goog_events_keycodes'], function (goog, box2d) {
 
 /*
 * Copyright (c) 2006-2007 Erin Catto http://www.box2d.org
@@ -29,22 +29,10 @@ if (typeof box2d.Testbed.Main === 'undefined')
 
 
 // -removed- goog.require('box2d.Testbed.Test');
-if (typeof box2d.Testbed.Test === 'undefined')
-    throw Error('I can haz box2d.Testbed.Test?')
-
 // -removed- goog.require('box2d.Testbed.TestEntries');
-if (typeof box2d.Testbed.TestEntries === 'undefined')
-    throw Error('I can haz box2d.Testbed.TestEntries?')
 
-
-// -removed- goog.require('goog.events.BrowserEvent');
-if (typeof goog.events.BrowserEvent === 'undefined')
-    throw Error('I can haz goog.events.BrowserEvent?')
- // fix compile warning
+// -removed- goog.require('goog.events.BrowserEvent'); // fix compile warning
 // -removed- goog.require('goog.events.KeyCodes');
-if (typeof goog.events.KeyCodes === 'undefined')
-    throw Error('I can haz goog.events.KeyCodes?')
-
 
 /**
  * @export

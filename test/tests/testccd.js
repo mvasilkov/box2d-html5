@@ -1,5 +1,5 @@
 // This wrapper was auto-generated.
-define(['goog', 'box2d.Testbed.Test', 'goog.events.KeyCodes'], function (goog, box2d) {
+define(['mod_goog', 'mod_box2d_testbed_test', 'mod_goog_events_keycodes'], function (goog, box2d) {
 
 /*
 * Copyright (c) 2006-2009 Erin Catto http://www.box2d.org
@@ -29,14 +29,8 @@ if (typeof box2d.Testbed.TestCCD === 'undefined')
 
 
 // -removed- goog.require('box2d.Testbed.Test');
-if (typeof box2d.Testbed.Test === 'undefined')
-    throw Error('I can haz box2d.Testbed.Test?')
-
 
 // -removed- goog.require('goog.events.KeyCodes');
-if (typeof goog.events.KeyCodes === 'undefined')
-    throw Error('I can haz goog.events.KeyCodes?')
-
 
 /**
  * @export

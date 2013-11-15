@@ -1,5 +1,5 @@
 // This wrapper was auto-generated.
-define(['goog', 'box2d.b2Controller', 'box2d.b2Math', 'box2d.b2Settings', 'box2d.b2WorldCallbacks'], function (goog, box2d) {
+define(['mod_goog', 'mod_box2d_controller', 'mod_box2d_math', 'mod_box2d_settings', 'mod_box2d_worldcallbacks'], function (goog, box2d) {
 
 /*
 * Copyright (c) 2006-2009 Erin Catto http://www.box2d.org
@@ -27,21 +27,9 @@ if (typeof box2d.b2BuoyancyController === 'undefined')
 
 
 // -removed- goog.require('box2d.b2Settings');
-if (typeof box2d.b2Settings === 'undefined')
-    throw Error('I can haz box2d.b2Settings?')
-
 // -removed- goog.require('box2d.b2Controller');
-if (typeof box2d.b2Controller === 'undefined')
-    throw Error('I can haz box2d.b2Controller?')
-
 // -removed- goog.require('box2d.b2Math');
-if (typeof box2d.b2Math === 'undefined')
-    throw Error('I can haz box2d.b2Math?')
-
 // -removed- goog.require('box2d.b2WorldCallbacks');
-if (typeof box2d.b2WorldCallbacks === 'undefined')
-    throw Error('I can haz box2d.b2WorldCallbacks?')
-
 
 /**
  * Calculates buoyancy forces for fluids in the form of a half

@@ -1,5 +1,5 @@
 // This wrapper was auto-generated.
-define(['goog', 'box2d.Testbed.Test'], function (goog, box2d) {
+define(['mod_goog', 'mod_box2d_testbed_test'], function (goog, box2d) {
 
 /*
 * Copyright (c) 2006-2009 Erin Catto http://www.box2d.org
@@ -29,9 +29,6 @@ if (typeof box2d.Testbed.CollisionProcessing === 'undefined')
 
 
 // -removed- goog.require('box2d.Testbed.Test');
-if (typeof box2d.Testbed.Test === 'undefined')
-    throw Error('I can haz box2d.Testbed.Test?')
-
 
 // This test shows collision processing and tests
 // deferred body destruction.

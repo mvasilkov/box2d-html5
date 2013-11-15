@@ -1,5 +1,5 @@
 // This wrapper was auto-generated.
-define(['goog.events.EventId'], function (goog) {
+define(['mod_goog_events_eventid'], function (goog) {
 
 // Copyright 2005 The Closure Library Authors. All Rights Reserved.
 //
@@ -39,9 +39,6 @@ if (typeof goog.events.EventLike === 'undefined')
 
 
 // -removed- goog.require('goog.events.EventId');
-if (typeof goog.events.EventId === 'undefined')
-    throw Error('I can haz goog.events.EventId?')
-
 
 
 /**

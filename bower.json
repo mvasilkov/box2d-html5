@@ -1,0 +1,12 @@
+{
+    "name": "box2d-html5",
+    "version": "0.1.230",
+    "description": "A 2D Physics Engine for HTML5 Games",
+    "keywords": ["box2d", "html5", "game", "physics", "engine"],
+    "main": "package/box2d-html5.js",
+    "ignore": ["*", "!package/box2d-html5.js", "!README"],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:mvasilkov/box2d-html5.git"
+    }
+}

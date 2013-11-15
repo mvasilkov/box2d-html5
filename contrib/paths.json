@@ -1,8 +1,8 @@
 {
-    "box2d.b2BuoyancyController": "contrib/enhancements/controllers/buoyancycontroller",
-    "box2d.b2ConstantAccelController": "contrib/enhancements/controllers/constantaccelcontroller",
-    "box2d.b2ConstantForceController": "contrib/enhancements/controllers/constantforcecontroller",
-    "box2d.b2Controller": "contrib/enhancements/controllers/controller",
-    "box2d.b2GravityController": "contrib/enhancements/controllers/gravitycontroller",
-    "box2d.b2TensorDampingController": "contrib/enhancements/controllers/tensordampingcontroller"
+    "mod_box2d_buoyancycontroller": "contrib/enhancements/controllers/buoyancycontroller",
+    "mod_box2d_constantaccelcontroller": "contrib/enhancements/controllers/constantaccelcontroller",
+    "mod_box2d_constantforcecontroller": "contrib/enhancements/controllers/constantforcecontroller",
+    "mod_box2d_controller": "contrib/enhancements/controllers/controller",
+    "mod_box2d_gravitycontroller": "contrib/enhancements/controllers/gravitycontroller",
+    "mod_box2d_tensordampingcontroller": "contrib/enhancements/controllers/tensordampingcontroller"
 }

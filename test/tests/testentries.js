@@ -1,5 +1,5 @@
 // This wrapper was auto-generated.
-define(['goog', 'box2d.Testbed.AddPair', 'box2d.Testbed.ApplyForce', 'box2d.Testbed.BlobTest', 'box2d.Testbed.BodyTypes', 'box2d.Testbed.Breakable', 'box2d.Testbed.Bridge', 'box2d.Testbed.BulletTest', 'box2d.Testbed.BuoyancyTest', 'box2d.Testbed.Cantilever', 'box2d.Testbed.Car', 'box2d.Testbed.Chain', 'box2d.Testbed.CharacterCollision', 'box2d.Testbed.CollisionFiltering', 'box2d.Testbed.CollisionProcessing', 'box2d.Testbed.CompoundShapes', 'box2d.Testbed.Confined', 'box2d.Testbed.ContinuousTest', 'box2d.Testbed.ConvexHull', 'box2d.Testbed.ConveyorBelt', 'box2d.Testbed.DistanceTest', 'box2d.Testbed.Dominos', 'box2d.Testbed.DumpShell', 'box2d.Testbed.DynamicTreeTest', 'box2d.Testbed.EdgeShapes', 'box2d.Testbed.EdgeTest', 'box2d.Testbed.Gears', 'box2d.Testbed.Mobile', 'box2d.Testbed.MobileBalanced', 'box2d.Testbed.MotorJoint', 'box2d.Testbed.OneSidedPlatform', 'box2d.Testbed.Pinball', 'box2d.Testbed.PolyCollision', 'box2d.Testbed.PolyShapes', 'box2d.Testbed.Prismatic', 'box2d.Testbed.Pulleys', 'box2d.Testbed.Pyramid', 'box2d.Testbed.RayCast', 'box2d.Testbed.Revolute', 'box2d.Testbed.Rope', 'box2d.Testbed.RopeJoint', 'box2d.Testbed.SensorTest', 'box2d.Testbed.ShapeEditing', 'box2d.Testbed.SliderCrank', 'box2d.Testbed.SphereStack', 'box2d.Testbed.Test', 'box2d.Testbed.TestCCD', 'box2d.Testbed.TestRagdoll', 'box2d.Testbed.TestStack', 'box2d.Testbed.TheoJansen', 'box2d.Testbed.Tiles', 'box2d.Testbed.TimeOfImpact', 'box2d.Testbed.Tumbler', 'box2d.Testbed.VaryingFriction', 'box2d.Testbed.VaryingRestitution', 'box2d.Testbed.VerticalStack', 'box2d.Testbed.Web'], function (goog, box2d) {
+define(['mod_goog', 'mod_box2d_testbed_addpair', 'mod_box2d_testbed_applyforce', 'mod_box2d_testbed_blobtest', 'mod_box2d_testbed_bodytypes', 'mod_box2d_testbed_breakable', 'mod_box2d_testbed_bridge', 'mod_box2d_testbed_bullettest', 'mod_box2d_testbed_buoyancytest', 'mod_box2d_testbed_cantilever', 'mod_box2d_testbed_car', 'mod_box2d_testbed_chain', 'mod_box2d_testbed_charactercollision', 'mod_box2d_testbed_collisionfiltering', 'mod_box2d_testbed_collisionprocessing', 'mod_box2d_testbed_compoundshapes', 'mod_box2d_testbed_confined', 'mod_box2d_testbed_continuoustest', 'mod_box2d_testbed_convexhull', 'mod_box2d_testbed_conveyorbelt', 'mod_box2d_testbed_distancetest', 'mod_box2d_testbed_dominos', 'mod_box2d_testbed_dumpshell', 'mod_box2d_testbed_dynamictreetest', 'mod_box2d_testbed_edgeshapes', 'mod_box2d_testbed_edgetest', 'mod_box2d_testbed_gears', 'mod_box2d_testbed_mobile', 'mod_box2d_testbed_mobilebalanced', 'mod_box2d_testbed_motorjoint', 'mod_box2d_testbed_onesidedplatform', 'mod_box2d_testbed_pinball', 'mod_box2d_testbed_polycollision', 'mod_box2d_testbed_polyshapes', 'mod_box2d_testbed_prismatic', 'mod_box2d_testbed_pulleys', 'mod_box2d_testbed_pyramid', 'mod_box2d_testbed_raycast', 'mod_box2d_testbed_revolute', 'mod_box2d_testbed_rope', 'mod_box2d_testbed_ropejoint', 'mod_box2d_testbed_sensortest', 'mod_box2d_testbed_shapeediting', 'mod_box2d_testbed_slidercrank', 'mod_box2d_testbed_spherestack', 'mod_box2d_testbed_test', 'mod_box2d_testbed_testccd', 'mod_box2d_testbed_testragdoll', 'mod_box2d_testbed_teststack', 'mod_box2d_testbed_theojansen', 'mod_box2d_testbed_tiles', 'mod_box2d_testbed_timeofimpact', 'mod_box2d_testbed_tumbler', 'mod_box2d_testbed_varyingfriction', 'mod_box2d_testbed_varyingrestitution', 'mod_box2d_testbed_verticalstack', 'mod_box2d_testbed_web'], function (goog, box2d) {
 
 /*
 * Copyright (c) 2006-2009 Erin Catto http://www.box2d.org
@@ -29,232 +29,64 @@ if (typeof box2d.Testbed.TestEntries === 'undefined')
 
 
 // -removed- goog.require('box2d.Testbed.Test');
-if (typeof box2d.Testbed.Test === 'undefined')
-    throw Error('I can haz box2d.Testbed.Test?')
-
 
 // -removed- goog.require('box2d.Testbed.AddPair');
-if (typeof box2d.Testbed.AddPair === 'undefined')
-    throw Error('I can haz box2d.Testbed.AddPair?')
-
 // -removed- goog.require('box2d.Testbed.ApplyForce');
-if (typeof box2d.Testbed.ApplyForce === 'undefined')
-    throw Error('I can haz box2d.Testbed.ApplyForce?')
-
 // -removed- goog.require('box2d.Testbed.BodyTypes');
-if (typeof box2d.Testbed.BodyTypes === 'undefined')
-    throw Error('I can haz box2d.Testbed.BodyTypes?')
-
 // -removed- goog.require('box2d.Testbed.Breakable');
-if (typeof box2d.Testbed.Breakable === 'undefined')
-    throw Error('I can haz box2d.Testbed.Breakable?')
-
 // -removed- goog.require('box2d.Testbed.Bridge');
-if (typeof box2d.Testbed.Bridge === 'undefined')
-    throw Error('I can haz box2d.Testbed.Bridge?')
-
 // -removed- goog.require('box2d.Testbed.BulletTest');
-if (typeof box2d.Testbed.BulletTest === 'undefined')
-    throw Error('I can haz box2d.Testbed.BulletTest?')
-
 // -removed- goog.require('box2d.Testbed.Cantilever');
-if (typeof box2d.Testbed.Cantilever === 'undefined')
-    throw Error('I can haz box2d.Testbed.Cantilever?')
-
 // -removed- goog.require('box2d.Testbed.Car');
-if (typeof box2d.Testbed.Car === 'undefined')
-    throw Error('I can haz box2d.Testbed.Car?')
-
 // -removed- goog.require('box2d.Testbed.ContinuousTest');
-if (typeof box2d.Testbed.ContinuousTest === 'undefined')
-    throw Error('I can haz box2d.Testbed.ContinuousTest?')
-
 // -removed- goog.require('box2d.Testbed.Chain');
-if (typeof box2d.Testbed.Chain === 'undefined')
-    throw Error('I can haz box2d.Testbed.Chain?')
-
 // -removed- goog.require('box2d.Testbed.CharacterCollision');
-if (typeof box2d.Testbed.CharacterCollision === 'undefined')
-    throw Error('I can haz box2d.Testbed.CharacterCollision?')
-
 // -removed- goog.require('box2d.Testbed.CollisionFiltering');
-if (typeof box2d.Testbed.CollisionFiltering === 'undefined')
-    throw Error('I can haz box2d.Testbed.CollisionFiltering?')
-
 // -removed- goog.require('box2d.Testbed.CollisionProcessing');
-if (typeof box2d.Testbed.CollisionProcessing === 'undefined')
-    throw Error('I can haz box2d.Testbed.CollisionProcessing?')
-
 // -removed- goog.require('box2d.Testbed.CompoundShapes');
-if (typeof box2d.Testbed.CompoundShapes === 'undefined')
-    throw Error('I can haz box2d.Testbed.CompoundShapes?')
-
 // -removed- goog.require('box2d.Testbed.Confined');
-if (typeof box2d.Testbed.Confined === 'undefined')
-    throw Error('I can haz box2d.Testbed.Confined?')
-
 // -removed- goog.require('box2d.Testbed.ConvexHull');
-if (typeof box2d.Testbed.ConvexHull === 'undefined')
-    throw Error('I can haz box2d.Testbed.ConvexHull?')
-
 // -removed- goog.require('box2d.Testbed.ConveyorBelt');
-if (typeof box2d.Testbed.ConveyorBelt === 'undefined')
-    throw Error('I can haz box2d.Testbed.ConveyorBelt?')
-
 // -removed- goog.require('box2d.Testbed.DistanceTest');
-if (typeof box2d.Testbed.DistanceTest === 'undefined')
-    throw Error('I can haz box2d.Testbed.DistanceTest?')
-
 // -removed- goog.require('box2d.Testbed.Dominos');
-if (typeof box2d.Testbed.Dominos === 'undefined')
-    throw Error('I can haz box2d.Testbed.Dominos?')
-
 // -removed- goog.require('box2d.Testbed.DumpShell');
-if (typeof box2d.Testbed.DumpShell === 'undefined')
-    throw Error('I can haz box2d.Testbed.DumpShell?')
-
 // -removed- goog.require('box2d.Testbed.DynamicTreeTest');
-if (typeof box2d.Testbed.DynamicTreeTest === 'undefined')
-    throw Error('I can haz box2d.Testbed.DynamicTreeTest?')
-
 // -removed- goog.require('box2d.Testbed.EdgeShapes');
-if (typeof box2d.Testbed.EdgeShapes === 'undefined')
-    throw Error('I can haz box2d.Testbed.EdgeShapes?')
-
 // -removed- goog.require('box2d.Testbed.EdgeTest');
-if (typeof box2d.Testbed.EdgeTest === 'undefined')
-    throw Error('I can haz box2d.Testbed.EdgeTest?')
-
 // -removed- goog.require('box2d.Testbed.Gears');
-if (typeof box2d.Testbed.Gears === 'undefined')
-    throw Error('I can haz box2d.Testbed.Gears?')
-
 // -removed- goog.require('box2d.Testbed.Mobile');
-if (typeof box2d.Testbed.Mobile === 'undefined')
-    throw Error('I can haz box2d.Testbed.Mobile?')
-
 // -removed- goog.require('box2d.Testbed.MobileBalanced');
-if (typeof box2d.Testbed.MobileBalanced === 'undefined')
-    throw Error('I can haz box2d.Testbed.MobileBalanced?')
-
 // -removed- goog.require('box2d.Testbed.MotorJoint');
-if (typeof box2d.Testbed.MotorJoint === 'undefined')
-    throw Error('I can haz box2d.Testbed.MotorJoint?')
-
 // -removed- goog.require('box2d.Testbed.OneSidedPlatform');
-if (typeof box2d.Testbed.OneSidedPlatform === 'undefined')
-    throw Error('I can haz box2d.Testbed.OneSidedPlatform?')
-
 // -removed- goog.require('box2d.Testbed.Pinball');
-if (typeof box2d.Testbed.Pinball === 'undefined')
-    throw Error('I can haz box2d.Testbed.Pinball?')
-
 // -removed- goog.require('box2d.Testbed.PolyCollision');
-if (typeof box2d.Testbed.PolyCollision === 'undefined')
-    throw Error('I can haz box2d.Testbed.PolyCollision?')
-
 // -removed- goog.require('box2d.Testbed.PolyShapes');
-if (typeof box2d.Testbed.PolyShapes === 'undefined')
-    throw Error('I can haz box2d.Testbed.PolyShapes?')
-
 // -removed- goog.require('box2d.Testbed.Prismatic');
-if (typeof box2d.Testbed.Prismatic === 'undefined')
-    throw Error('I can haz box2d.Testbed.Prismatic?')
-
 // -removed- goog.require('box2d.Testbed.Pulleys');
-if (typeof box2d.Testbed.Pulleys === 'undefined')
-    throw Error('I can haz box2d.Testbed.Pulleys?')
-
 // -removed- goog.require('box2d.Testbed.Pyramid');
-if (typeof box2d.Testbed.Pyramid === 'undefined')
-    throw Error('I can haz box2d.Testbed.Pyramid?')
-
 // -removed- goog.require('box2d.Testbed.RayCast');
-if (typeof box2d.Testbed.RayCast === 'undefined')
-    throw Error('I can haz box2d.Testbed.RayCast?')
-
 // -removed- goog.require('box2d.Testbed.Revolute');
-if (typeof box2d.Testbed.Revolute === 'undefined')
-    throw Error('I can haz box2d.Testbed.Revolute?')
-
 // -removed- goog.require('box2d.Testbed.Rope');
-if (typeof box2d.Testbed.Rope === 'undefined')
-    throw Error('I can haz box2d.Testbed.Rope?')
-
 // -removed- goog.require('box2d.Testbed.RopeJoint');
-if (typeof box2d.Testbed.RopeJoint === 'undefined')
-    throw Error('I can haz box2d.Testbed.RopeJoint?')
-
 // -removed- goog.require('box2d.Testbed.SensorTest');
-if (typeof box2d.Testbed.SensorTest === 'undefined')
-    throw Error('I can haz box2d.Testbed.SensorTest?')
-
 // -removed- goog.require('box2d.Testbed.ShapeEditing');
-if (typeof box2d.Testbed.ShapeEditing === 'undefined')
-    throw Error('I can haz box2d.Testbed.ShapeEditing?')
-
 // -removed- goog.require('box2d.Testbed.SliderCrank');
-if (typeof box2d.Testbed.SliderCrank === 'undefined')
-    throw Error('I can haz box2d.Testbed.SliderCrank?')
-
 // -removed- goog.require('box2d.Testbed.SphereStack');
-if (typeof box2d.Testbed.SphereStack === 'undefined')
-    throw Error('I can haz box2d.Testbed.SphereStack?')
-
 // -removed- goog.require('box2d.Testbed.TheoJansen');
-if (typeof box2d.Testbed.TheoJansen === 'undefined')
-    throw Error('I can haz box2d.Testbed.TheoJansen?')
-
 // -removed- goog.require('box2d.Testbed.Tiles');
-if (typeof box2d.Testbed.Tiles === 'undefined')
-    throw Error('I can haz box2d.Testbed.Tiles?')
-
 // -removed- goog.require('box2d.Testbed.TimeOfImpact');
-if (typeof box2d.Testbed.TimeOfImpact === 'undefined')
-    throw Error('I can haz box2d.Testbed.TimeOfImpact?')
-
 // -removed- goog.require('box2d.Testbed.Tumbler');
-if (typeof box2d.Testbed.Tumbler === 'undefined')
-    throw Error('I can haz box2d.Testbed.Tumbler?')
-
 // -removed- goog.require('box2d.Testbed.VaryingFriction');
-if (typeof box2d.Testbed.VaryingFriction === 'undefined')
-    throw Error('I can haz box2d.Testbed.VaryingFriction?')
-
 // -removed- goog.require('box2d.Testbed.VaryingRestitution');
-if (typeof box2d.Testbed.VaryingRestitution === 'undefined')
-    throw Error('I can haz box2d.Testbed.VaryingRestitution?')
-
 // -removed- goog.require('box2d.Testbed.VerticalStack');
-if (typeof box2d.Testbed.VerticalStack === 'undefined')
-    throw Error('I can haz box2d.Testbed.VerticalStack?')
-
 // -removed- goog.require('box2d.Testbed.Web');
-if (typeof box2d.Testbed.Web === 'undefined')
-    throw Error('I can haz box2d.Testbed.Web?')
-
 
 // -removed- goog.require('box2d.Testbed.BlobTest');
-if (typeof box2d.Testbed.BlobTest === 'undefined')
-    throw Error('I can haz box2d.Testbed.BlobTest?')
-
 // -removed- goog.require('box2d.Testbed.BuoyancyTest');
-if (typeof box2d.Testbed.BuoyancyTest === 'undefined')
-    throw Error('I can haz box2d.Testbed.BuoyancyTest?')
-
 
 // -removed- goog.require('box2d.Testbed.TestCCD');
-if (typeof box2d.Testbed.TestCCD === 'undefined')
-    throw Error('I can haz box2d.Testbed.TestCCD?')
-
 // -removed- goog.require('box2d.Testbed.TestRagdoll');
-if (typeof box2d.Testbed.TestRagdoll === 'undefined')
-    throw Error('I can haz box2d.Testbed.TestRagdoll?')
-
 // -removed- goog.require('box2d.Testbed.TestStack');
-if (typeof box2d.Testbed.TestStack === 'undefined')
-    throw Error('I can haz box2d.Testbed.TestStack?')
-
 
 /**
  * @export

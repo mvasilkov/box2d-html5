@@ -1,5 +1,5 @@
 // This wrapper was auto-generated.
-define(['goog.events.BrowserFeature', 'goog.events.Event', 'goog.events.EventType', 'goog.reflect', 'goog.userAgent'], function (goog) {
+define(['mod_goog_events_browserfeature', 'mod_goog_events_event', 'mod_goog_events_eventtype', 'mod_goog_reflect', 'mod_goog_useragent'], function (goog) {
 
 // Copyright 2005 The Closure Library Authors. All Rights Reserved.
 //
@@ -66,25 +66,10 @@ if (typeof goog.events.BrowserEvent.MouseButton === 'undefined')
 
 
 // -removed- goog.require('goog.events.BrowserFeature');
-if (typeof goog.events.BrowserFeature === 'undefined')
-    throw Error('I can haz goog.events.BrowserFeature?')
-
 // -removed- goog.require('goog.events.Event');
-if (typeof goog.events.Event === 'undefined')
-    throw Error('I can haz goog.events.Event?')
-
 // -removed- goog.require('goog.events.EventType');
-if (typeof goog.events.EventType === 'undefined')
-    throw Error('I can haz goog.events.EventType?')
-
 // -removed- goog.require('goog.reflect');
-if (typeof goog.reflect === 'undefined')
-    throw Error('I can haz goog.reflect?')
-
 // -removed- goog.require('goog.userAgent');
-if (typeof goog.userAgent === 'undefined')
-    throw Error('I can haz goog.userAgent?')
-
 
 
 

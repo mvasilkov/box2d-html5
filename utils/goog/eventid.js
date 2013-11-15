@@ -1,5 +1,5 @@
 // This wrapper was auto-generated.
-define(['goog'], function (goog) {
+define(['mod_goog'], function (goog) {
 
 // Copyright 2013 The Closure Library Authors. All Rights Reserved.
 //

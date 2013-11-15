@@ -1,5 +1,5 @@
 // This wrapper was auto-generated.
-define(['goog.userAgent'], function (goog) {
+define(['mod_goog_useragent'], function (goog) {
 
 // Copyright 2010 The Closure Library Authors. All Rights Reserved.
 //
@@ -33,9 +33,6 @@ if (typeof goog.events.EventType === 'undefined')
 
 
 // -removed- goog.require('goog.userAgent');
-if (typeof goog.userAgent === 'undefined')
-    throw Error('I can haz goog.userAgent?')
-
 
 
 /**

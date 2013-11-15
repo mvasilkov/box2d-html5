@@ -1,5 +1,5 @@
 // This wrapper was auto-generated.
-define(['goog', 'box2d.b2Controller', 'box2d.b2Math', 'box2d.b2Settings'], function (goog, box2d) {
+define(['mod_goog', 'mod_box2d_controller', 'mod_box2d_math', 'mod_box2d_settings'], function (goog, box2d) {
 
 /*
 * Copyright (c) 2006-2009 Erin Catto http://www.box2d.org
@@ -27,17 +27,8 @@ if (typeof box2d.b2GravityController === 'undefined')
 
 
 // -removed- goog.require('box2d.b2Settings');
-if (typeof box2d.b2Settings === 'undefined')
-    throw Error('I can haz box2d.b2Settings?')
-
 // -removed- goog.require('box2d.b2Controller');
-if (typeof box2d.b2Controller === 'undefined')
-    throw Error('I can haz box2d.b2Controller?')
-
 // -removed- goog.require('box2d.b2Math');
-if (typeof box2d.b2Math === 'undefined')
-    throw Error('I can haz box2d.b2Math?')
-
 
 /**
  * Applies simplified gravity between every pair of bodies

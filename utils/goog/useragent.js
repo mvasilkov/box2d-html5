@@ -1,5 +1,5 @@
 // This wrapper was auto-generated.
-define(['goog.string'], function (goog) {
+define(['mod_goog_string'], function (goog) {
 
 // Copyright 2006 The Closure Library Authors. All Rights Reserved.
 //
@@ -31,9 +31,6 @@ if (typeof goog.userAgent === 'undefined')
 
 
 // -removed- goog.require('goog.string');
-if (typeof goog.string === 'undefined')
-    throw Error('I can haz goog.string?')
-
 
 
 /**

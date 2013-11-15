@@ -1,5 +1,5 @@
 // This wrapper was auto-generated.
-define(['goog', 'box2d', 'box2d.Testbed.Render'], function (goog, box2d) {
+define(['mod_goog', 'mod_box2d', 'mod_box2d_testbed_render'], function (goog, box2d) {
 
 /*
 * Copyright (c) 2006-2009 Erin Catto http://www.box2d.org
@@ -29,13 +29,7 @@ if (typeof box2d.Testbed.Test === 'undefined')
 
 
 // -removed- goog.require('box2d');
-if (typeof box2d === 'undefined')
-    throw Error('I can haz box2d?')
-
 // -removed- goog.require('box2d.Testbed.Render');
-if (typeof box2d.Testbed.Render === 'undefined')
-    throw Error('I can haz box2d.Testbed.Render?')
-
 
 /**
  * @export

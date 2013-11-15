@@ -1,5 +1,5 @@
 // This wrapper was auto-generated.
-define(['goog', 'box2d', 'goog.string.format'], function (goog, box2d) {
+define(['mod_goog', 'mod_box2d', 'mod_goog_string_format'], function (goog, box2d) {
 
 /*
 * Copyright (c) 2006-2007 Erin Catto http://www.box2d.org
@@ -29,14 +29,8 @@ if (typeof box2d.Testbed.Render === 'undefined')
 
 
 // -removed- goog.require('box2d');
-if (typeof box2d === 'undefined')
-    throw Error('I can haz box2d?')
-
 
 // -removed- goog.require('goog.string.format');
-if (typeof goog.string.format === 'undefined')
-    throw Error('I can haz goog.string.format?')
-
 
 /**
  * This class implements debug drawing callbacks that are
